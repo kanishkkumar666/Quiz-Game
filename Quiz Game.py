@@ -2,9 +2,9 @@ import time
 
 
 def timer():
-    second = 30
+    second = 6
     for i in range(second):
-        print(str(second - i) + " second remain")
+        str(second - i) + " second remain"
         time.sleep(1)
     print("Time up")
     print(score)
