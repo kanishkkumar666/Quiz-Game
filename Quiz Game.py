@@ -50,6 +50,7 @@ def easy():
     print("B. Public keys")
     print("C. Public and private keys")
     print("D. User passwords")
+    timer()
     print("Enter Your Choice\n")
     ans1 = input()
     if ans1 == 'B' or ans1 == 'b':
@@ -65,6 +66,7 @@ def easy():
     print("B. nmap -sP -p-65535 -T5")
     print("C. nmap -A --host-timeout 99 -T1")
     print("D. nmap -A - Pn")
+    timer()
     print("Enter Your Choice\n")
     ans2 = input()
     if ans2 == 'A' or ans2 == 'a':
@@ -78,6 +80,7 @@ def easy():
     print("B. DMZ")
     print("C. Administrative safeguards")
     print("D. Physical security")
+    timer()
     print("Enter Your Choice\n")
     ans3 = input()
     if ans3 == 'C' or ans3 == 'c':
@@ -93,6 +96,7 @@ def easy():
     print("B. Discretionary Access Control (DAC)")
     print("C. Role Based Access Control (RBAC)")
     print("D. Single sign-on")
+    timer()
     print("Enter Your Choice\n")
     ans4 = input()
     if ans4 == 'D' or ans4 == 'd':
@@ -108,6 +112,7 @@ def easy():
     print("B. Recovery phase")
     print("C. Identification phase")
     print("D. Preparation phase")
+    timer()
     print("Enter Your Choice\n")
     ans5 = input()
     if ans5 == 'D' or ans5 == 'd':
@@ -131,6 +136,7 @@ def medium():
     print("B. nslookup -fullrecursive update.antivirus.com")
     print("C. dnsnooping -rt update.antivirus.com")
     print("D. dns --snoop update.antivirus.com")
+    timer()
     print("Enter Your Choice\n")
     ans1 = input()
     if ans1 == 'A' or ans1 == 'a':
@@ -147,6 +153,7 @@ def medium():
     print("B. Scanning")
     print("C. Code Emulation")
     print("D. Integrity checking")
+    timer()
     print("Enter Your Choice\n")
     ans2 = input()
     if ans2 == 'B' or ans2 == 'b':
@@ -160,6 +167,7 @@ def medium():
     print("B. Rainbow tables")
     print("C. Brute force")
     print("D. Shoulder surfing")
+    timer()
     print("Enter Your Choice\n")
     ans3 = input()
     if ans3 == 'C' or ans3 == 'c':
@@ -174,6 +182,7 @@ def medium():
           "environment variable to a vulnerable Web server")
     print("C. SYN Flood")
     print("D. SSH")
+    timer()
     print("Enter Your Choice\n")
     ans4 = input()
     if ans4 == 'B' or ans4 == 'b':
@@ -188,6 +197,7 @@ def medium():
     print("B. Social engineering, company site browsing, tailgating")
     print("C. Wardriving, warchalking, social engineering")
     print("D. Phishing, spamming, sending trojans")
+    timer()
     print("Enter Your Choice\n")
     ans5 = input()
     if ans5 == 'A' or ans5 == 'a':
@@ -208,6 +218,7 @@ def hard():
     print("B. Collision attacks try to break the hash into three parts to get the plaintext value.")
     print("C. Collision attacks try to get the public key")
     print("D. Collision attacks try to find two inputs producing the same hash.")
+    timer()
     print("Enter Your Choice\n")
     ans1 = input()
     if ans1 == 'D' or ans1 == 'd':
@@ -222,6 +233,7 @@ def hard():
     print("B. UDP 541")
     print("C. UDP 514")
     print("D. UDP 123")
+    timer()
     print("Enter Your Choice\n")
     ans2 = input()
     if ans2 == 'C' or ans2 == 'c':
@@ -238,6 +250,7 @@ def hard():
     print("B. Service Level Agreement")
     print("C. Non-Disclosure Agreement")
     print("D. Rules of Engagement")
+    timer()
     print("Enter Your Choice\n")
     ans3 = input()
     if ans3 == 'D' or ans3 == 'd':
@@ -254,6 +267,7 @@ def hard():
     print("B. Application")
     print("C. Session")
     print("D. Transport")
+    timer()
     print("Enter Your Choice\n")
     ans4 = input()
     if ans4 == 'A' or ans4 == 'a':
@@ -267,6 +281,7 @@ def hard():
     print("B. Scanning")
     print("C. Social Engineering")
     print("D. Eavesdropping")
+    timer()
     print("Enter Your Choice\n")
     ans5 = input()
     if ans5 == 'C' or ans5 == 'c':
